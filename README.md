@@ -2,7 +2,7 @@
 
 # Hi there, I'm Utkarsh Singh Chauhan 👋
 ### Cybersecurity Engineer & Full-Stack Security Developer
-**IIT Kanpur** • Detection Engineering • SOC Workflows • Threat Intelligence
+**Parul University** • Detection Engineering • SOC Workflows • Threat Intelligence
 
 [![GitHub followers](https://img.shields.io/github/followers/utkarshchauhaniitk-star?style=social)](https://github.com/utkarshchauhaniitk-star)
 [![Email](https://img.shields.io/badge/Email-utkarshchauhaniitk%40gmail.com-00B4D8?style=flat&logo=gmail&logoColor=white)](mailto:utkarshchauhaniitk@gmail.com)
@@ -21,7 +21,7 @@ def mission_statement():
 
 ## 🛡️ About Me
 
-I am a cybersecurity student and software engineer from **IIT Kanpur** specializing in **Threat Detection Engineering**, **Security Operations (SOC)**, and **Full-Stack Security Tooling**. 
+I am a cybersecurity student and software engineer from **Parul University** specializing in **Threat Detection Engineering**, **Security Operations (SOC)**, and **Full-Stack Security Tooling**. 
 
 My work bridges the gap between offensive attack modeling (MITRE ATT&CK) and defensive automation — engineering end-to-end platforms that ingest raw telemetry, detect adversarial behavior through sliding-window correlation, and streamline forensic triage for incident response teams.
 
@@ -138,4 +138,4 @@ My work bridges the gap between offensive attack modeling (MITRE ATT&CK) and def
 
 - 🌐 **GitHub**: [@utkarshchauhaniitk-star](https://github.com/utkarshchauhaniitk-star)
 - 📧 **Direct Inquiries**: [utkarshchauhaniitk@gmail.com](mailto:utkarshchauhaniitk@gmail.com)
-- 🎓 **Education**: Indian Institute of Technology (IIT) Kanpur
+- 🎓 **Education**: Parul University (Cybersecurity & Computer Science)
