@@ -42,7 +42,9 @@ My work bridges the gap between offensive attack modeling (MITRE ATT&CK) and def
         <a href="https://github.com/utkarshchauhaniitk-star/threatforge">
           <img src="https://img.shields.io/badge/Repository-threatforge-00B4D8?style=flat-square&logo=github" alt="ThreatForge Repo" />
         </a>
-        <img src="https://img.shields.io/badge/Status-Active_v1.0-10B981?style=flat-square" alt="Status" />
+        <a href="https://threatforge.vercel.app">
+          <img src="https://img.shields.io/badge/Live_Demo-threatforge.vercel.app-10B981?style=flat-square&logo=vercel" alt="Live Demo" />
+        </a>
       </p>
       <p>
         An enterprise-grade security monitoring platform featuring raw log ingestion (JSON/CSV), rule-based threat correlation engine mapped to MITRE ATT&CK, incident investigation workspace, and automated executive audit reports.
@@ -51,6 +53,7 @@ My work bridges the gap between offensive attack modeling (MITRE ATT&CK) and def
         <img src="https://raw.githubusercontent.com/utkarshchauhaniitk-star/threatforge/main/docs/screenshots/dashboard.png" width="100%" alt="ThreatForge Dashboard" />
       </a>
       <ul>
+        <li><b>Live Interface:</b> <a href="https://threatforge.vercel.app">threatforge.vercel.app</a></li>
         <li><b>Detection Engine:</b> Brute Force (T1110.001), Password Spraying (T1110.003), Privilege Escalation (T1078.001), Connection Burst (T1046).</li>
         <li><b>Tech Stack:</b> React, TypeScript, Vite, Tailwind CSS, Recharts, Python, FastAPI, SQLAlchemy, SQLite/PostgreSQL.</li>
         <li><b>Testing:</b> 100% test coverage across 15 Pytest backend suites and 6 Vitest frontend suites.</li>
@@ -69,15 +72,16 @@ My work bridges the gap between offensive attack modeling (MITRE ATT&CK) and def
         <img src="https://img.shields.io/badge/Status-Production_Ready-10B981?style=flat-square" alt="Status" />
       </p>
       <p>
-        Autonomous cybersecurity intelligence platform that continuously aggregates, classifies, and assesses emerging threat advisories, zero-day vulnerabilities, and CVEs across global feeds.
+        Autonomous cybersecurity intelligence platform that continuously aggregates, classifies, and assesses emerging threat advisories, zero-day vulnerabilities, and CVEs across global feeds in under 1.5 seconds.
       </p>
       <a href="https://github.com/utkarshchauhaniitk-star/CyberNewsAI-Pro">
-        <img src="https://raw.githubusercontent.com/utkarshchauhaniitk-star/CyberNewsAI-Pro/main/docs/screenshot.png" width="100%" alt="CyberNewsAI Radar" />
+        <img src="https://raw.githubusercontent.com/utkarshchauhaniitk-star/CyberNewsAI-Pro/main/docs/screenshots/radar-feed.png" width="100%" alt="CyberNewsAI Radar" />
       </a>
       <ul>
-        <li><b>Threat Intel Feeds:</b> Multi-threaded ingestion from BleepingComputer, CISA Advisories, HackerNews Security, and KrebsOnSecurity.</li>
-        <li><b>AI & Heuristic Risk Analysis:</b> Executive triage synthesis via Google Gemini AI with offline heuristic NLP fallback.</li>
-        <li><b>Tech Stack:</b> Python, FastAPI, React, Tailwind CSS, Lucide, Web Audio API podcast synthesizer.</li>
+        <li><b>Live Threat Radar:</b> Sub-second concurrent ingestion across 5 authoritative threat research feeds (BleepingComputer, HackerNews, SecurityWeek, CISA, KrebsOnSecurity).</li>
+        <li><b>AI & Heuristic Risk Analysis:</b> Structured executive threat briefings via Google Gemini 3.5 Flash with deterministic heuristic fallback.</li>
+        <li><b>Interactive HUD:</b> 100% clickable category, severity, and CVE badges, plus 1-click Pin-to-Vault bookmarking.</li>
+        <li><b>Tech Stack:</b> Python, FastAPI, SQLite WAL, React 19, Vite, Tailwind CSS, Google Gemini AI.</li>
       </ul>
       <p align="center">
         <a href="https://github.com/utkarshchauhaniitk-star/CyberNewsAI-Pro"><b>Explore CyberNewsAI-Pro Repository →</b></a>
