@@ -6,8 +6,11 @@
 **Gujarat, India** • Security Monitoring • Threat Detection • Digital Forensics & Incident Response (DFIR)
 
 [![GitHub](https://img.shields.io/badge/GitHub-utkarshchauhaniitk--star-00B4D8?style=flat-square&logo=github&logoColor=white)](https://github.com/utkarshchauhaniitk-star)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Utkarsh_Chauhan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/utkarsh-chauhan-15ab9b328/)
 [![Email](https://img.shields.io/badge/Email-utkarshchauhaniitk%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:utkarshchauhaniitk@gmail.com)
-[![ThreatForge Live Demo](https://img.shields.io/badge/Live_Project-ThreatForge_SIEM-10B981?style=flat-square&logo=vercel&logoColor=white)](https://threatforge.vercel.app)
+[![ThreatForge SIEM](https://img.shields.io/badge/Project-ThreatForge_SIEM-10B981?style=flat-square&logo=shield&logoColor=white)](https://threatforge.vercel.app)
+[![CyberNewsAI-Pro](https://img.shields.io/badge/Project-CyberNewsAI--Pro-F59E0B?style=flat-square&logo=rss&logoColor=white)](https://github.com/utkarshchauhaniitk-star/CyberNewsAI-Pro)
+[![DFIR CaseVault](https://img.shields.io/badge/Project-DFIR_CaseVault-8B5CF6?style=flat-square&logo=archive&logoColor=white)](https://github.com/utkarshchauhaniitk-star/dfir-casevault)
 
 </div>
 
@@ -38,17 +41,17 @@ Skills and tools I work with across my practical projects and academic studies:
 
 | Category | Tools & Technologies |
 | :--- | :--- |
-| **Programming & Scripting** | Python, JavaScript, SQL (SQLite, PostgreSQL), Bash |
-| **Cybersecurity Concepts** | Security Monitoring, Log Telemetry Analysis, Threat Detection, MITRE ATT&CK® Mapping, Digital Forensics, Incident Triage |
+| **Programming & Scripting** | Python, JavaScript, TypeScript, SQL (SQLite, PostgreSQL), Bash |
+| **Cybersecurity Concepts** | Security Monitoring, Log Telemetry Analysis, Threat Detection, MITRE ATT&CK® Mapping, Digital Forensics, Evidence Integrity (SHA-256), Chain of Custody, Incident Triage, Vulnerability Intelligence (CVE) |
 | **Security Tools** | Splunk (SIEM), Kali Linux, FTK (Forensic Toolkit), DUMP IT (Memory Acquisition) |
-| **Development** | FastAPI, React, Node.js, Vite, Tailwind CSS, REST APIs |
+| **Development & Libraries** | FastAPI, ReportLab, pypdf, React, Vite, Tailwind CSS, REST APIs |
 | **Infrastructure & Systems** | Linux / Unix CLI, Docker, Git, GitHub, GitHub Actions CI/CD |
 
 ---
 
 ## 🚀 Existing Projects
 
-### 1. 🛡️ ThreatForge — Security Monitoring & Threat Detection Platform (Primary Project)
+### 1. 🛡️ ThreatForge — Security Monitoring & Threat Detection Platform
 **Repository**: [github.com/utkarshchauhaniitk-star/threatforge](https://github.com/utkarshchauhaniitk-star/threatforge) &nbsp;|&nbsp; **Live Application**: [threatforge.vercel.app](https://threatforge.vercel.app) &nbsp;|&nbsp; **License**: MIT
 
 ThreatForge is a full-stack security monitoring and threat detection platform built to simulate real-world SOC workflows. It addresses the challenge security analysts face when ingesting raw, heterogeneous telemetry from authentication services, firewalls, and servers by normalizing logs into a standardized schema and executing deterministic correlation rules.
@@ -96,6 +99,25 @@ CyberNewsAI-Pro is an automated threat intelligence aggregator that continuously
 
 ---
 
+### 3. 🔍 DFIR CaseVault — Digital Forensics & Incident Response Platform
+**Repository**: [github.com/utkarshchauhaniitk-star/dfir-casevault](https://github.com/utkarshchauhaniitk-star/dfir-casevault) &nbsp;|&nbsp; **License**: MIT
+
+DFIR CaseVault is a digital forensics and incident response platform engineered to enforce evidentiary discipline, cryptographic immutability, tamper detection, and audit reporting during cyber incident investigations.
+
+- **Purpose**: Provide incident responders and forensic investigators with a tamper-evident evidence vault, immutable chain of custody, and publication-ready PDF case dossiers without requiring complex proprietary forensic suite licensing.
+- **Technology Stack**: Python 3.12, FastAPI, SQLAlchemy 2.0, ReportLab 4.3, Pillow, pypdf, React 18, TypeScript, Vite, Tailwind CSS, Recharts.
+- **Key Implemented Features**:
+  - **Cryptographic SHA-256 Integrity & Tamper Detection**: Stream-computes 256-bit SHA-256 hashes upon artifact upload. On-demand verification recalculates hashes from disk to detect byte-level tampering and flags `Integrity Mismatch` without overwriting the recorded baseline.
+  - **Append-Only Chain of Custody (CoC)**: Immutable evidentiary ledger recording all file ingestions, custody transfers, integrity audits, artifact analyses, and downloads with UTC timestamps and investigator attribution.
+  - **Safe Non-Executing Artifact Parsers**: Safe inspection of log captures, structured CSVs, JSON configs, PDF metadata (`pypdf`), and image EXIF data (`Pillow`). Archive inspection catalogs ZIP table-of-contents without disk extraction to prevent zip-slip vulnerabilities.
+  - **Deterministic IoC Extraction**: Regex extraction of IPv4 addresses, domains, URLs, email addresses, and SHA-256 hashes with boundary sanity validation.
+  - **Chronological Timeline Reconstruction**: Multi-source timeline aggregating case milestones, evidence acquisitions, custody actions, and analyst notes.
+  - **Forensic PDF Dossier Generation**: Automated generation of publication-ready investigation reports via ReportLab featuring running headers, dynamic `NumberedCanvas` page counts, formatted tables, and custody logs.
+  - **Automated Verification**: Comprehensive test coverage with 9 Pytest backend verification tests and TypeScript/Vite production build running via GitHub Actions CI.
+
+
+---
+
 ## 📖 Current Learning & Skill Development
 
 I am actively dedicating time every week to deepen my defensive security capabilities through hands-on labs and technical study:
@@ -112,6 +134,6 @@ I am actively dedicating time every week to deepen my defensive security capabil
 
 - **GitHub**: [github.com/utkarshchauhaniitk-star](https://github.com/utkarshchauhaniitk-star)
 - **Email**: [utkarshchauhaniitk@gmail.com](mailto:utkarshchauhaniitk@gmail.com)
-- **LinkedIn**: [Connect on LinkedIn](https://www.linkedin.com) *(Add your personal profile link)*
+- **LinkedIn**: [linkedin.com/in/utkarsh-chauhan-15ab9b328](https://www.linkedin.com/in/utkarsh-chauhan-15ab9b328/)
 - **Location**: Gujarat, India
 - **Status**: Open to Cybersecurity Internships & Entry-Level SOC Analyst Opportunities

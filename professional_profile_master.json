@@ -1,0 +1,226 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2026-11-10",
+    "description": "Master verified professional identity for Utkarsh Singh Chauhan. Single source of truth for GitHub, LinkedIn, and portfolio synchronization."
+  },
+  "personal_identity": {
+    "full_name": "Utkarsh Singh Chauhan",
+    "preferred_name": "Utkarsh Chauhan",
+    "headline": "Cybersecurity Student | SOC Analyst Aspirant | Threat Detection & DFIR",
+    "location": {
+      "city_region": "Gujarat",
+      "country": "India"
+    },
+    "current_status": "Final-year cybersecurity student seeking internships & entry-level SOC / DFIR opportunities",
+    "career_direction": [
+      "SOC Analyst",
+      "Security Operations",
+      "Security Monitoring",
+      "Threat Detection Engineering",
+      "Digital Forensics and Incident Response (DFIR)",
+      "Threat Intelligence",
+      "Security Automation"
+    ],
+    "professional_summary": "Final-year cybersecurity student based in Gujarat, India, with hands-on focus on defensive security engineering, SOC alert monitoring, and incident investigation. Rather than relying on purely theoretical study, I build practical open-source tools: ThreatForge (a SIEM log correlation platform mapped to MITRE ATT&CK), CyberNewsAI-Pro (a threat intelligence and CVE extraction aggregator), and DFIR CaseVault (a digital forensics platform enforcing cryptographic SHA-256 integrity and chain-of-custody tracking). Proficient in Python, Linux, FastAPI, React, and log telemetry analysis."
+  },
+  "education": {
+    "status": "In Progress (Final Year)",
+    "field_of_study": "Cybersecurity",
+    "academic_year": "Final Year",
+    "degree_title": null,
+    "institution_name": null,
+    "graduation_year": null,
+    "notes": "Exact degree title (e.g. B.Tech / B.Sc in Cybersecurity / Computer Science), university name, and graduation year require candidate confirmation before populating official resume fields."
+  },
+  "experience": {
+    "entries": [],
+    "notes": "Candidate is a student preparing for entry-level positions and internships. No prior professional or enterprise employment history is claimed or fabricated. Personal projects are strictly categorized as projects, never misrepresented as commercial employment."
+  },
+  "certifications": {
+    "entries": [],
+    "notes": "No industry certifications (e.g. CompTIA Security+, CEH, BTL1) are currently recorded in verified project files. Left null to prevent unverified credential claims. Candidate can supply verified certificate credentials when earned."
+  },
+  "skills": {
+    "cybersecurity_concepts": [
+      "Security Operations Center (SOC) Workflows",
+      "Security Telemetry & Log Monitoring",
+      "Rule-Based Threat Correlation",
+      "MITRE ATT&CK® Framework Mapping",
+      "Digital Forensics & Incident Response (DFIR)",
+      "Cryptographic Evidence Integrity (SHA-256)",
+      "Append-Only Chain of Custody (CoC)",
+      "Vulnerability Intelligence & CVE Tracking",
+      "Incident Triage & Forensic Note-Taking"
+    ],
+    "security_tools_and_environments": [
+      "Splunk (SIEM)",
+      "Kali Linux",
+      "FTK (Forensic Toolkit)",
+      "DUMP IT (Memory Acquisition)",
+      "Linux / Unix CLI"
+    ],
+    "programming_and_scripting": [
+      "Python 3.12",
+      "JavaScript",
+      "TypeScript",
+      "SQL (SQLite, PostgreSQL)",
+      "Bash"
+    ],
+    "frameworks_and_libraries": [
+      "FastAPI",
+      "SQLAlchemy 2.0",
+      "Pydantic v2",
+      "ReportLab (Forensic PDF Generation)",
+      "pypdf",
+      "Pillow",
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Recharts"
+    ],
+    "devops_and_infrastructure": [
+      "Git",
+      "GitHub",
+      "GitHub Actions CI/CD",
+      "Docker"
+    ]
+  },
+  "projects": [
+    {
+      "id": "threatforge",
+      "name": "ThreatForge",
+      "title": "ThreatForge — Security Monitoring, SIEM Log Correlation & Threat Detection Platform",
+      "role": "Primary Developer & Security Engineer",
+      "repository_url": "https://github.com/utkarshchauhaniitk-star/threatforge",
+      "live_demo_url": "https://threatforge.vercel.app",
+      "license": "MIT",
+      "purpose": "Simulate real-world SOC workflows by ingesting heterogeneous telemetry from auth systems, firewalls, and servers, normalizing logs into standard schemas, and correlating events against MITRE ATT&CK techniques.",
+      "technologies": [
+        "Python 3.12",
+        "FastAPI",
+        "SQLAlchemy 2.0",
+        "SQLite / PostgreSQL",
+        "React 18",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "Recharts"
+      ],
+      "mitre_attack_rules": [
+        {
+          "technique_id": "T1110.001",
+          "name": "Brute Force (Password Guessing)",
+          "detection": "Detects rapid failed authentication bursts exceeding threshold within a rolling 5-minute window."
+        },
+        {
+          "technique_id": "T1110.003",
+          "name": "Password Spraying",
+          "detection": "Detects single IP attempting authentication across multiple distinct usernames."
+        },
+        {
+          "technique_id": "T1078.001",
+          "name": "Compromised Credentials / Privileged Activity",
+          "detection": "Flags off-hours administrative access, sensitive privilege escalation, and root account anomalies."
+        },
+        {
+          "technique_id": "T1046",
+          "name": "Network Service Discovery",
+          "detection": "Monitors firewall telemetry for repeated denied connection attempts across multiple ports."
+        }
+      ],
+      "key_features": [
+        "Automated log ingestion with schema normalization for auth, network, and firewall records",
+        "Deterministic correlation engine executing sliding-window MITRE ATT&CK rules",
+        "Analyst investigation workspace with alert triage, status lifecycles, and forensic notes",
+        "Exportable executive audit reports and compliance briefs",
+        "Full test coverage (15 Pytest backend tests + 6 Vitest frontend tests) verified in CI"
+      ],
+      "testing_status": "21/21 Tests Passed (15 Backend Pytest + 6 Frontend Vitest)",
+      "ci_status": "Active (GitHub Actions ci.yml passing)"
+    },
+    {
+      "id": "cybernewsai-pro",
+      "name": "CyberNewsAI-Pro",
+      "title": "CyberNewsAI-Pro — Cybersecurity Threat Intelligence & Vulnerability Aggregator",
+      "role": "Primary Developer & Security Engineer",
+      "repository_url": "https://github.com/utkarshchauhaniitk-star/CyberNewsAI-Pro",
+      "live_demo_url": null,
+      "license": "MIT",
+      "purpose": "Consolidate fragmented threat intelligence by concurrently ingesting research advisories across 5 authoritative sources, automatically extracting CVEs, and producing structured risk summaries.",
+      "technologies": [
+        "Python 3.12",
+        "FastAPI",
+        "SQLite (WAL Mode)",
+        "React 19",
+        "Vite",
+        "Tailwind CSS",
+        "Google Gemini API (with deterministic keyword heuristic fallback)"
+      ],
+      "sources_monitored": [
+        "BleepingComputer",
+        "The Hacker News",
+        "SecurityWeek",
+        "CISA Advisories",
+        "KrebsOnSecurity"
+      ],
+      "key_features": [
+        "Concurrent multi-feed RSS/Atom ingestion with deduplication and SHA-256 fingerprinting",
+        "Deterministic regex CVE extraction (CVE-YYYY-NNNN+) with automated CVSS-aligned severity classification",
+        "AI executive risk briefings powered by Gemini API with resilient heuristic fallback",
+        "Analyst HUD with real-time category filtering, CVE search, and Pin-to-Vault bookmarks",
+        "Broadcast script exporter generating publication-ready executive briefings",
+        "8/8 backend API verification tests passing in CI"
+      ],
+      "testing_status": "8/8 Tests Passed (test_backend_api.py)",
+      "ci_status": "Active (GitHub Actions ci.yml passing)"
+    },
+    {
+      "id": "dfir-casevault",
+      "name": "DFIR CaseVault",
+      "title": "DFIR CaseVault — Digital Forensics & Incident Response Platform",
+      "role": "Primary Developer & Security Engineer",
+      "repository_url": "https://github.com/utkarshchauhaniitk-star/dfir-casevault",
+      "live_demo_url": null,
+      "license": "MIT",
+      "purpose": "Enforce evidentiary rigor and cryptographic immutability during digital investigations with tamper-evident evidence tracking, chain-of-custody ledgers, and publication-ready PDF case dossiers.",
+      "technologies": [
+        "Python 3.12",
+        "FastAPI",
+        "SQLAlchemy 2.0",
+        "ReportLab 4.3",
+        "Pillow",
+        "pypdf",
+        "React 18",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "Recharts"
+      ],
+      "key_features": [
+        "Cryptographic SHA-256 baseline hashing on artifact ingestion using Python hashlib",
+        "On-demand integrity verification detecting byte-level tampering on disk without overwriting original baseline",
+        "Strict path traversal defense preventing directory escape via Path.is_relative_to and regex sanitization",
+        "Immutable append-only Chain of Custody (CoC) ledger recording all file ingestions, audits, and transfers",
+        "Non-executing artifact parsers (syslog, CSV network flows, JSON configs, PDF metadata, image EXIF, and safe ZIP TOC inspection without disk decompression)",
+        "Deterministic IoC extraction for IPv4 addresses, URLs, domains, emails, and SHA-256 hashes",
+        "Multi-source chronological timeline reconstruction",
+        "Publication-ready forensic PDF dossier generation with ReportLab NumberedCanvas dynamic pagination",
+        "9/9 backend Pytest verification tests and clean TypeScript/Vite frontend build"
+      ],
+      "testing_status": "9/9 Tests Passed (Pytest backend) + Frontend TypeScript/Vite Build Clean",
+      "ci_status": "Active (GitHub Actions ci.yml configured)"
+    }
+  ],
+  "links": {
+    "github_profile": "https://github.com/utkarshchauhaniitk-star",
+    "linkedin_profile": "https://www.linkedin.com/in/utkarsh-chauhan-15ab9b328/",
+    "profile_readme_repo": "https://github.com/utkarshchauhaniitk-star/utkarshchauhaniitk-star",
+    "threatforge_repo": "https://github.com/utkarshchauhaniitk-star/threatforge",
+    "threatforge_live": "https://threatforge.vercel.app",
+    "cybernewsai_repo": "https://github.com/utkarshchauhaniitk-star/CyberNewsAI-Pro",
+    "dfir_casevault_repo": "https://github.com/utkarshchauhaniitk-star/dfir-casevault",
+    "email": "utkarshchauhaniitk@gmail.com"
+  }
+}
