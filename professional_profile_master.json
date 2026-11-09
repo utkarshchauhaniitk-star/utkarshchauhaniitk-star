@@ -29,10 +29,10 @@
     "status": "In Progress (Final Year)",
     "field_of_study": "Cybersecurity",
     "academic_year": "Final Year",
-    "degree_title": null,
-    "institution_name": null,
-    "graduation_year": null,
-    "notes": "Exact degree title (e.g. B.Tech / B.Sc in Cybersecurity / Computer Science), university name, and graduation year require candidate confirmation before populating official resume fields."
+    "degree_title": "Bachelor of Technology (B.Tech) - Cybersecurity",
+    "institution_name": "Parul University",
+    "location": "Vadodara, Gujarat, India",
+    "notes": "Verified from candidate's updated profile metadata: Parul University, Gujarat, India."
   },
   "experience": {
     "entries": [],
